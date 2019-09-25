@@ -15,75 +15,59 @@ class ajiah(stock):
 
 def zuhe():
     zuhe = []
-    huihang = stock("03698", "徽商银行", "hk", 300)
-    zuhe.append(huihang)
 
     maotai = stock("600519", "贵州茅台", "sh", 310)
     zuhe.append(maotai)
 
-    minshenga = stock("600016", "民生银行A", "sh", 80)
-
-    zhaohang = stock("600036", "招商银行", "sh", 3000)
+    zhaohang = stock("600036", "招商银行A", "sh", 3700)
     zuhe.append(zhaohang)
 
-    fuyao = stock("600660", "福耀玻璃", "sh", 700)
-    zuhe.append(fuyao)
-
-    pingan = stock("601318", "中国平安", "sh", 300)
+    pingan = stock("601318", "中国平安A", "sh", 300)
     zuhe.append(pingan)
-
-    donge = stock("000423", "东阿阿胶", "sz", 300)
-    zuhe.append(donge)
 
     wuliang = stock("000858", "五粮液", "sz", 400)
     zuhe.append(wuliang)
 
-    sanjin = stock("002275", "桂林三金", "sz", 200)
-    zuhe.append(sanjin)
-
     yanghe = stock("002304", "洋河股份", "sz", 200)
     zuhe.append(yanghe)
 
-    zhonghang = stock("03988", "中国银行", "hk", 7000)
+    zhonghang = stock("03988", "中国银行H", "hk", 7000)
     zuhe.append(zhonghang)
 
-    nonghang = stock("01288", "农业银行", "hk", 6000)
+    nonghang = stock("01288", "农业银行H", "hk", 6000)
     zuhe.append(nonghang)
 
-    xinda = stock("01359", "中国信达", "hk", 15000)
+    xinda = stock("01359", "中国信达H", "hk", 15000)
     zuhe.append(xinda)
 
-    fengxiang = stock("900905", "老凤祥", "sh", 1200, "usd")
+    fengxiang = stock("900905", "老凤祥B", "sh", 1200, "usd")
     zuhe.append(fengxiang)
 
     tanmu = stock("00837", "谭木匠", "hk", 7500)
     zuhe.append(tanmu)
 
-    baiyun = stock("00874", "白云山", "hk", 2000)
+    baiyun = stock("00874", "白云山H", "hk", 2000)
     zuhe.append(baiyun)
 
     kangchen = stock("01681", "康臣药业", "hk", 5000)
     zuhe.append(kangchen)
 
-    bishou = stock("01830", "必瘦站", "hk", 28000)
+    bishou = stock("01830", "必瘦站", "hk", 24000)
     zuhe.append(bishou)
 
-    haohai = stock("06826", "昊海生科", "hk", 600)
-    zuhe.append(haohai)
-
-    jinjie = stock("03918", "金界控股", "hk", 14000)
+    jinjie = stock("03918", "金界控股", "hk", 16000)
     zuhe.append(jinjie)
 
     minshengh = stock("01988", "民生银行H", "hk", 100)
-    zuhe.append(ajiah("民生银行H+A",minshengh,minshenga))
+    zuhe.append(minshengh)
 
-    huanqiu = stock("02666", "环球医疗", "hk", 15000)
+    huanqiu = stock("02666", "环球医疗", "hk", 15000+1000)
     zuhe.append(huanqiu)
 
-    jianhang = stock("00939", "建设银行", "hk", 2000)
+    jianhang = stock("00939", "建设银行H", "hk", 2000)
     zuhe.append(jianhang)
 
-    tianli = stock("01773", "天立教育", "hk", 30000)
+    tianli = stock("01773", "天立教育", "hk", 47000)
     zuhe.append(tianli)
 
     return zuhe
